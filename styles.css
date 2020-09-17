@@ -1,0 +1,22 @@
+h2{
+  color: #0d0d0d;
+  font-weight: bold ;
+}
+
+/* ul, li {margin-left: 40px; padding-left: 40px;} */
+p, ul, li{
+  color: #333333;
+}
+/*
+.reveal .slides section .slideContent pre{
+    font-size: 10pt;
+    color: red;
+}
+*/
+
+/* slides > slide pre {CRITICAL}*/
+slides > slide pre {
+  font-size: 16px ;
+    color: black;
+}
+
