@@ -188,21 +188,13 @@ forest_main = function(for_model, ...){
                overall.hetstat = TRUE, #overall heterogeneity effects
                resid.hetstat=FALSE, # not residual hetstat as no subgroups
                hetstat=FALSE,
-               prediction = TRUE,
-               addrow=T,
-               addrow.overall=F,
-               fs.hetstat = 12,
-               fs.predict = 12,
-               fs.test.overall = 12,
-               fs.random.labels =12,
-               leftcols = c("studlab", "event.e", "n.e", "event.c", "n.c"),
-               leftlabs = NULL,
-               rightcols = c("effect.ci"),
+               prediction = TRUE,addrow=T,
+               addrow.overall=F, fs.hetstat = 12,
+               fs.predict = 12, fs.test.overall = 12,
+               fs.random.labels =12, leftcols = c("studlab", "event.e", "n.e", "event.c", "n.c"),leftlabs = NULL,rightcols = c("effect.ci"),
                squaresize = 0.4,
                plotwidth = '180mm',
-               ...
-
-  )
+               ...)
 }
 ```
 
